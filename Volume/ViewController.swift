@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         sliderVolume.setThumbImage(UIImage(named: "volume50.png"), for: UIControl.State())
 
         let volumeValue : Float = player.value(forKey: "volume")! as! Float
+        print("VolumeValue:\(volumeValue)")
         sliderVolume.value = volumeValue
         dispLabelVolume(volumeValue)
         displabelMusic()
