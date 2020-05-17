@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -205,7 +202,7 @@
                                 </variation>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.22745098039215686" green="0.25882352941176467" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.22745098039215686" green="0.25882352941176467" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Lgj-xu-WWc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="4hG-hn-aYX"/>
                             <constraint firstItem="Zcd-3v-2tH" firstAttribute="top" secondItem="HoF-4E-xSl" secondAttribute="bottom" constant="44" id="4wX-SB-T52"/>
@@ -241,27 +238,27 @@
                                 <exclude reference="Wsq-1b-SAv"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="4wX-SB-T52"/>
-                                <exclude reference="rSv-B0-wP2"/>
-                                <exclude reference="sJv-SC-WlT"/>
+                                <exclude reference="EYL-UH-zEH"/>
+                                <exclude reference="c8v-Sx-ieq"/>
                                 <exclude reference="6ap-uG-ITu"/>
-                                <exclude reference="9fC-Od-iTL"/>
-                                <exclude reference="gUH-CO-udS"/>
-                                <exclude reference="TDT-Gf-CRo"/>
-                                <exclude reference="msO-Wq-Gsp"/>
-                                <exclude reference="t91-kM-LEo"/>
                                 <exclude reference="A1S-Qj-pni"/>
                                 <exclude reference="SVG-Tw-QBt"/>
                                 <exclude reference="jnf-5A-gj8"/>
                                 <exclude reference="lvJ-9k-Bfc"/>
+                                <exclude reference="9fC-Od-iTL"/>
+                                <exclude reference="gUH-CO-udS"/>
+                                <exclude reference="4wX-SB-T52"/>
+                                <exclude reference="rSv-B0-wP2"/>
+                                <exclude reference="sJv-SC-WlT"/>
+                                <exclude reference="TDT-Gf-CRo"/>
+                                <exclude reference="msO-Wq-Gsp"/>
+                                <exclude reference="t91-kM-LEo"/>
                                 <exclude reference="4hG-hn-aYX"/>
                                 <exclude reference="Dgy-jD-dnH"/>
                                 <exclude reference="J7U-Np-Sfd"/>
                                 <exclude reference="F4v-My-zPH"/>
                                 <exclude reference="F6a-E7-doH"/>
                                 <exclude reference="i8W-db-Wql"/>
-                                <exclude reference="EYL-UH-zEH"/>
-                                <exclude reference="c8v-Sx-ieq"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -276,27 +273,27 @@
                                 <include reference="Wsq-1b-SAv"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="4wX-SB-T52"/>
-                                <include reference="rSv-B0-wP2"/>
-                                <include reference="sJv-SC-WlT"/>
+                                <include reference="EYL-UH-zEH"/>
+                                <include reference="c8v-Sx-ieq"/>
                                 <include reference="6ap-uG-ITu"/>
-                                <include reference="9fC-Od-iTL"/>
-                                <include reference="gUH-CO-udS"/>
-                                <include reference="TDT-Gf-CRo"/>
-                                <include reference="msO-Wq-Gsp"/>
-                                <include reference="t91-kM-LEo"/>
                                 <include reference="A1S-Qj-pni"/>
                                 <include reference="SVG-Tw-QBt"/>
                                 <include reference="jnf-5A-gj8"/>
                                 <include reference="lvJ-9k-Bfc"/>
+                                <include reference="9fC-Od-iTL"/>
+                                <include reference="gUH-CO-udS"/>
+                                <include reference="4wX-SB-T52"/>
+                                <include reference="rSv-B0-wP2"/>
+                                <include reference="sJv-SC-WlT"/>
+                                <include reference="TDT-Gf-CRo"/>
+                                <include reference="msO-Wq-Gsp"/>
+                                <include reference="t91-kM-LEo"/>
                                 <include reference="4hG-hn-aYX"/>
                                 <include reference="Dgy-jD-dnH"/>
                                 <include reference="J7U-Np-Sfd"/>
                                 <include reference="F4v-My-zPH"/>
                                 <include reference="F6a-E7-doH"/>
                                 <include reference="i8W-db-Wql"/>
-                                <include reference="EYL-UH-zEH"/>
-                                <include reference="c8v-Sx-ieq"/>
                             </mask>
                         </variation>
                     </view>
